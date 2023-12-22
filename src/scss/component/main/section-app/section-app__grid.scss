@@ -1,0 +1,45 @@
+.section-app__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 325px);
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas: "one one one" "two three four";
+  row-gap: 63px;
+  column-gap: 40px;
+  @media (max-width: 1060px) {
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "one one one" "two three four";
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    row-gap: 121px;
+    column-gap: 20px;
+
+  }
+  @media (max-width: 560px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "one" "three";
+    row-gap: 63px;
+    
+
+  }
+  @media (max-width: 460px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "one" "three";
+    row-gap: 63px;
+    
+
+  }
+  
+  
+  @media (max-width: 320px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: "one" "three";
+  }
+}

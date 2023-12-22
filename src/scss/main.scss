@@ -1,0 +1,31 @@
+// * Це головний sass/scss файл проекту
+// * імпортуйте сюди всі інші ваші файли sass/scss
+@import "./component/nav/nav.scss";
+@import "./base/reset.scss";
+@import "./layout/container.scss";
+@import "./component/header/header.scss";
+@import "./component/header/header__head-title.scss";
+@import url("https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&display=swap");
+@import "./component/nav/nav__menu.scss";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+@import "./component/nav/nav__menu-btn.scss";
+@import "./component/main/section-info/main__section-info.scss";
+@import "./component/main/section-info/section-info__title.scss";
+@import "./component/main/section-info/section-info__paragrph.scss";
+@import "./component/main/section-info/section-info__list.scss";
+@import "./component/footer/footer.scss";
+@import "./component/footer/footer__social-list.scss";
+@import "./component/footer/footer__copyright.scss";
+@import "./component/footer/footer_link.scss";
+@import"./component/main/section-accent/section-accent.scss";
+@import "./component/main/section-accent/section-accent__title.scss";
+@import "./component/main/section-design/section-design.scss";
+@import "./component/main/section-design/section-design__title.scss";
+@import "./component/main/section-design/section-design__grid.scss";
+@import "./component/main/section-app/section-app.scss";
+@import "./component/main/section-app/section-app__grid.scss";
+@import "./component/main/section-app/section-app__card.scss";
+@import "./component/main/section-app/section-app__card-img.scss";
+@import "./component/main/section-app/section-app__card-title.scss";
+@import "./component/main/section-app/section-app__card-paragraph.scss";
+@import "./component/main/section-app/section-app__card-arrow-link.scss"

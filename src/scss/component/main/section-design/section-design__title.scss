@@ -1,0 +1,38 @@
+.section-design__title {
+  color: #fff;
+  font-family: DynaPuff;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 38px;
+  text-wrap: nowrap;
+  @media (max-width: 1060px) {
+    font-size: 80px;
+  }
+  @media (max-width: 768px) {
+    font-size: 80px;
+  }
+  @media (max-width: 700px) {
+    font-size: 70px;
+  }
+  @media (max-width: 620px) {
+    font-size: 60px;
+  }
+  @media (max-width: 500px) {
+    font-size: 50px;
+  }
+
+  @media (max-width: 443px) {
+    font-size: 42px;
+  }
+  @media (max-width: 420px) {
+    font-size: 38px;
+  }
+  @media (max-width: 346px) {
+    font-size: 36px;
+  }
+  @media (max-width: 320px) {
+    font-size: 36px;
+  }
+}

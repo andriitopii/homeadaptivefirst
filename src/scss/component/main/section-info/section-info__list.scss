@@ -1,0 +1,40 @@
+.section-info__list {
+  display: flex;
+  gap: 96px;
+  @media (max-width: 420px) {
+    gap: 0;
+    justify-content: space-between;
+  }
+  @media (max-width: 320px) {
+    gap:0
+  }
+}
+
+.section-info__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.section-info_item-count {
+  color: #fff;
+  font-family: DynaPuff;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section-info_item-desc {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin:0;
+  @media (max-width: 420px) {
+   word-spacing: 100vw;;
+  }
+}

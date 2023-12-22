@@ -1,0 +1,18 @@
+.section-app__card-title {
+  color: #565656;
+  font-family: DynaPuff;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  &--first{
+    font-size: 40px;
+    @media (max-width: 460px) {
+        font-size: 36px;
+    }
+    @media (max-width: 320px) {
+        font-size: 32px;
+    }
+  }
+}

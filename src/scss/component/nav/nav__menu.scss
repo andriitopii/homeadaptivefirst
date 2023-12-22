@@ -1,0 +1,32 @@
+.nav__menu {
+  display: flex;
+  gap: 20px;
+  @media (max-width: 1060px) {
+  }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+  @media (max-width: 320px) {
+    display: none;
+  }
+}
+
+.nav__item-link {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nav__item {
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 20px;
+  border: 1px solid #fff;
+}

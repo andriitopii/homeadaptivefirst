@@ -1,0 +1,68 @@
+.section-app__card {
+    position: relative;
+  display: flex;
+    gap: 20px;
+  padding: 24px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 24px;
+  background: #fffef2;
+  @media (max-width: 460px) {
+    padding: 16px;
+  }
+@media (max-width: 320px) {
+    padding: 16px;
+}
+  &--first {
+    grid-area: one;
+  }
+  &--second {
+    grid-area: two;
+    @media (max-width: 560px) {
+      display: none;
+      
+  
+    }
+    @media (max-width: 460px) {
+        display: none;
+      }
+    @media (max-width: 320px) {
+      display: none;
+    }
+  }
+  &--three {
+    grid-area: three;
+    
+    @media (max-width: 768px) {
+      display: none;
+    }
+    @media (max-width: 560px) {
+      display: flex;
+      
+  
+    }
+    @media (max-width: 460px) {
+        display: flex;
+      }
+    @media (max-width: 320px) {
+        display: flex;
+      }
+  }
+  &--four {
+    @media (max-width: 560px) {
+      display: none;
+      
+  
+      
+    }
+
+    @media (max-width: 460px) {
+      display: none;
+    }
+    @media (max-width: 320px) {
+      display: none;
+    }
+    
+    grid-area: four;
+  }
+}
